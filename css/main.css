@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+h1{
+  color:  #FF9021;
+  font-family: 'Pacifico', cursive;
+  font-size:  80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-family: 'Acme', sans-serif;
+  font-size: 35px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+p{
+  font-family: 'Acme', sans-serif;
+  color: orange;
+}
+
+header ul{
+  display: flex;
+}
+
+header li {
+
+  margin: 8px;
+}
+
+body {
+  background-color: rgb(253, 255, 148);
+}
+
+.content{
+  min-height: 90vh;
+}
+
+figure{
+  width: 100vw;
+
+margin-left: 50%;
+transform: translateX(-50%);
+}
+
+figure img{
+  width: 100%;
+}
+
+section  {
+  scroll-snap-type: y proximity;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+section div {
+  scroll-snap-align: start;
+}
+
+figcaption {
+  font-style: italic;
+}
